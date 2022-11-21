@@ -15,7 +15,7 @@ News App developed with Flutter and API from [News API](https://newsapi.org)
 
 ## Usage
 1. Please open file **constant_config.dart** and change `YOUR API KEY` in the variable `keyNewsApi` with your own.
-2. In development mode, I'm used fake json server. So, the data is not realtime. 
+2. In development mode, I'm used fake json server. So, the data is not realtime.
 3. Build flavor only work for Android. So, if you want to run as development mode you can use this command.
 ```
 flutter run -t lib/main_development.dart --flavor development -d <device_id>
@@ -82,5 +82,4 @@ A testing library which makes it easy to test blocs.
 17. JSON Serializable<br />
 Automatically generate code for converting to and from JSON by annotating Dart classes.
 18. Hive<br />
-Lightweight and blazing fast key-value database written in pure.
-
+Lightweight and blazing fast key-value database written.
